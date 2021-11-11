@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+.header{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    box-shadow: 0px 10px 10px -6px gray;
+    color: white;
+    padding: 15px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 20px;
+}
+header ul{
+    display: flex;
+}
+
+header ul LI{
+    margin: 0 13px;   
+}
+
+.advertisements{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 160px 0;
+}
+.advertisements1{
+    background-image: url(../img/delivery.jpg);
+    border-radius: 10px;
+    position: relative;
+    width: 490px;
+    height: 350px;
+   
+}
+.advertisements1 h2{
+    color: red;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.advertisements1 h2 span {
+    color: white;
+}
+.advertisements2{
+    background-color: white;
+    border-radius: 10px;
+    height: 350px;
+    position: relative;
+    width: 490px;       
+}
+
+.advertisements2 h2{
+    color: red;
+    position: absolute;
+    top: 20px;
+    left: 160px;
+}
+.top-pizzas {
+    padding: 130px 10px 40px 30px;
+}
+.top-pizzas h3{
+    margin: 0 0 20px 40px;
+}
+.top-pizzas ol li{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.advertisements2 img{
+    position: absolute;
+    right: 80px;
+    bottom: 80px;
+}
+footer{
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+footer ul li{
+    margin-bottom: 20px;
+}
