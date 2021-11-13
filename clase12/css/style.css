@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.header-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #222222;
+    color: #f3f3f3;
+    justify-content: space-between;
+}
+.header-top span{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 90px;
+    background-color: aqua;
+    
+}
+.header-top span ul {    
+    display: flex;    
+    flex-direction: row;
+    background-color: red;
+    text-decoration: none;
+}
+
+.header-top span ul li {    
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+.header-top span ul li:hover {    
+    color: rgb(184, 184, 184);
+}
+.header-bottom {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-bottom span {
+    margin-top: 19px;
+    margin-bottom: 20px;
+}
+
+.header-bottom img {
+    margin-left: 58px;
+}
+
+.header-bottom ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.header-bottom ul li{
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-right: 30px;
+
+}
+
+
+
+.header-bottom ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .paw {
+     margin-right: 5px;
+ }
+
+.header-bottom ul li a:hover {
+    color: rgb(184, 184, 184);
+}
+
+#banner {
+    background-image: url('../img/encabezado.png');
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+.welcome {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    text-align: center;
+    top: 250px;
+    width: auto;
+}
+
+.welcome h2{
+    background-color: white;
+    border-radius: 10px;
+    color: #3C2313;
+    font-size: 2.0em;
+    padding: 20px;
+    
+}
+
+.welcome p{
+    font-size: 1.25em;
+    color: #3C2313;
+    margin: 20px 0;
+}
